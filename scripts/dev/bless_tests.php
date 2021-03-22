@@ -1,9 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-if ($argc < 2) {
-    die("Usage: php bless_tests.php dir/\n");
-}
+
 
 $files = getFiles(array_slice($argv, 1));
 foreach ($files as $path) {
